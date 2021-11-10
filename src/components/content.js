@@ -39,6 +39,7 @@ function PageContent() {
                             className="categoryItem" 
                             shape="round" 
                             size={"large"}
+                            onClick={() => updateSelectedUserCategory(item.value)}
                         >
                             {item.title}
                         </Button>
@@ -59,6 +60,7 @@ function PageContent() {
                             className="categoryItem" 
                             shape="round" 
                             size={"large"}
+                            onClick={() => updateSelectedItemCategory(item.value)}
                         >
                             {item.title}
                         </Button>
@@ -71,6 +73,7 @@ function PageContent() {
                             hoverable
                             style={{ width: 343, height: 350 }}
                             cover={<img alt="example" className="itemCardImage" src={item.image} />}
+                            onClick={() => updatelastVisitedItem(item.key)}
                         >
                             <div className="cardTitleText">
                                 <span>{item.title}</span>
