@@ -1,0 +1,42 @@
+.ant-layout-header {
+    background: white;
+    padding: 0;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.leftBlock {
+    width: 15%;
+    display: inline-block;
+}
+
+
+.zipcode {
+    color: gray;
+    text-align: center;
+}
+  
+.centerBlock {
+    width: 70%;
+    margin: 0;
+    display: inline-block;
+}
+
+.logo {
+    float: left;
+    width: 28px;
+    height: 28px;
+    margin: 15px 0 0 15px;
+    border-radius: 50%;
+    background: #6FC16D;
+}
+
+
+.rightBlock {
+    width: 15%;
+    display: inline-block;
+}
+  
+  
